@@ -1,0 +1,142 @@
+
+/*CSS初始化*/
+html {
+    font-size:12px;
+    font-size:1.2rem ;
+}
+body,h1,h2,h3,h4,h5,h6,p,div,ul,ol,dl,dt,dd,li,video {
+    margin:0;
+    padding:0;
+    font-family: 'Arial', 'Times New Roman', 'Verdana','微软雅黑','Microsoft YaHei';
+    list-style: none;
+     word-spacing:0.5rem; 
+     /* letter-spacing: 0.08rem; */
+     font-weight: 100;
+     
+}
+*{
+    margin:0;
+    padding:0;
+/* 
+    transition: all 1s ease-in-out 0s; */
+}
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+i,s {
+
+    font-style: normal;
+    text-decoration: none;
+}
+input,img {
+    margin:0;
+    padding:0;
+    border: 0 none;
+    outline-style: none;
+}
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+table{
+    border-collapse:collapse;
+}
+button{
+    border-style: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/* 右边导航 */
+.main-nav {
+	height: 100%;
+	top: 0;
+	right: 0;
+	position: fixed;
+	z-index: 888;
+	color: #fff;
+}
+.main-nav .nav-zhezhao {
+    position: absolute;
+	z-index: 886;
+    top: -640px;
+    right: 0px;
+    width: 640px;
+    height: 80%;
+    background: #000;
+    display: none;
+}
+
+.zhezhao-translate {
+	transform: translate(-10%,0);
+	transition: all 1s ease-in-out 0s;
+}
+.main-nav .nav-button {
+    position: fixed;
+	z-index: 9999;
+    top: 20px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+	cursor: pointer;
+	color: #1878F1;
+}
+.main-nav .nav-button i {
+}
+.main-nav .nav-button i.baise {
+    color: #fff;
+}
+.main-nav .nav-list {
+	position: relative;
+	z-index: 999;
+	padding-left: 85px;
+	float: left;
+	width: 0;
+    height: 80%;
+	overflow: hidden;
+	background: #1878F1;
+	opacity: 0;
+	transition: all 1s ease-in-out 0s;
+}
+.main-nav .nav-list ul {
+    height: 100%;
+	padding-top: 85px;
+}
+.main-nav .nav-list li {
+	position: relative;
+	height: 8%;
+	width: 300px;
+	font-size: 15px;
+} 
+
+.main-nav .nav-list li:nth-child(1) {
+
+}
+
+.main-nav .nav-list-show {
+	width: 350px;
+	opacity: 1;
+	transition: all 1s ease-in-out 0s;
+}
+.main-nav .nav-list-hidden {
+	width: 0px;
+	transition: all 0s ease-in-out 0s;
+}
