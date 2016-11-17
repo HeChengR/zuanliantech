@@ -87,11 +87,8 @@ loadImages(imgUrls, function (imgEls) {
         (function ($) {
             $(".diamonds-rotate").empty();
             $(".diamonds-rotate").append(imgEls[("pic_" + diamonds_list)]);
-        })(Zepto)
-
-
+        })(Zepto);
     }, 50)
-
     //获取钻石列表函数
     function get_diamonds_list() {
         if (diamonds_list < 56) {

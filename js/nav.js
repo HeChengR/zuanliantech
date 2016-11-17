@@ -10,7 +10,8 @@ $(function(){
 				if (navFlag == true) {
 
 					// 第一次点击出现遮罩层
-	                $(".nav-zhezhao").fadeTo(1000,0.9);
+                    $(".nav-zhezhao").fadeTo(1000,0.9);
+
 
 
 	                //第一次点击菜单按钮变关闭按钮
