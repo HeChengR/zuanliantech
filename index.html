@@ -72,7 +72,7 @@
                     <h3>革命性的金融引擎</h3>
 
                     <div class="text">
-                        <p>让用户拥有并安全 高效地交易钻石资产</p>
+                        <p>让用户拥有并安全&nbsp;高效地交易钻石资产</p>
 
                         <p>过去，钻石只是高价值和寄托情感的消费品。</p>
 
@@ -96,27 +96,27 @@
                     <div class="little-title-1">
                         <h5>可流通</h5>
                         <dl>
-                            <dt>公允价格 随时交易</dt>
+                            <dt>公允价格&nbsp;随时交易</dt>
                         </dl>
                     </div>
                     <div class="little-title-2">
                         <h5>标准化</h5>
                         <dl>
-                            <dt>极优质量 便于交易</dt>
+                            <dt>极优质量&nbsp;便于交易</dt>
 
                         </dl>
                     </div>
                     <div class="little-title-3">
                         <h5>便携性</h5>
                         <dl>
-                            <dt>随时提取 随身携带</dt>
+                            <dt>随时提取&nbsp;随身携带</dt>
 
                         </dl>
                     </div>
                     <div class="little-title-4">
                         <h5>高增值</h5>
                         <dl>
-                            <dt>抗通货 实物投资</dt>
+                            <dt>抗通货&nbsp;实物投资</dt>
 
                         </dl>
                     </div>
@@ -136,33 +136,6 @@
                 </div>
             </div>
             <!--第四屏-->
-            <div class="swiper-slide swiper-slide-4">
-                <div class='content'>
-                    <div class="text">
-                        <h3>可流通</h3>
-                        <h5>公允价格 随时交易</h5>
-
-                        <p>具国际市场的公允价格,保证投资者最优的买入价。</p>
-
-                        <p>所有钻石都可流通,可交易。同其他投资资产一样,钻石价值也会随当前市场情况而波动。</p>
-                    </div>
-                    <!--左按钮-->
-                    <button class="content-left">
-
-                    </button>
-                    <!--右按钮-->
-                    <button class='content-right'>
-
-                    </button>
-                </div>
-                <div class="mindiamonds">
-                    <span class="animate"><img src="images/2@2x.png" alt=""></span>
-                    <span class="animate"><img src="images/3@2x.png" alt=""></span>
-                    <span class="animate"><img src="images/22@2x.png" alt=""></span>
-                    <span class="animate"></span>
-                </div>
-            </div>
-            <!--第五屏-->
             <div class="swiper-slide swiper-slide-5">
                 <div class="content content-w">
 
@@ -180,20 +153,20 @@
                             <img src="./images/l2@2x.png" alt=""/>
                             <img src="./images/l3@2x.png" alt=""/>
 
-                            <h3>引擎模式</h3>
+                            <img src="./images/z-31@2x.png" alt=""/>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--第六屏-->
+            <!--第五屏-->
             <div class="swiper-slide swiper-slide-6">
 
             </div>
-            <!--第七屏-->
+            <!--第六屏-->
             <div class="swiper-slide swiper-slide-7">
 
             </div>
-            <!--第八屏-->
+            <!--第七屏-->
             <div class="swiper-slide swiper-slide-8 swiper-pagination-bullet-active">
                 <div class='content'>
                     <div class='content-top'>
@@ -237,15 +210,13 @@
 
             switch (swiper.activeIndex) {
                 case 0:
-
                     $('.swiper-slide-1 .content .sy-logo').addClass('animte-1');
                     $('.swiper-slide-1 .content > span').addClass('animte-1');
                     $('.swiper-slide-1 .content > p').addClass('animte-1');
-
-
                     break;
                 case 1:
                     $('.swiper-slide-2 .content > h3').addClass('animte-2');
+                        $('.swiper-slide-2 .content .text p').addClass('animte-2');
                     break;
                 case 2:
                     $('.swiper-slide-3 .content .little-title-1').addClass('little-3-1');
@@ -277,8 +248,9 @@
                 $('.swiper-slide-1 .content > p').removeClass('animte-1');
             }
 
-            if(swiper.activeIndex != 1){
+            if (swiper.activeIndex != 1) {
                 $('.swiper-slide-2 .content > h3').removeClass('animte-2');
+                $('.swiper-slide-2 .content .text p').removeClass('animte-2');
             }
         }
 

@@ -19,12 +19,12 @@ body {
 }
 
 .swiper-slide-3 .diamonds-2 {
-    width: 200px;
-    height: 159px;
+    width: 400px;
+    height: 318px;
     position: absolute;
     left: 0%;
     right: 0%;
-    top: -7%;
+    top: 0%;
     bottom: 0%;
     margin: auto;
 }
@@ -142,10 +142,6 @@ video {
     position: relative;
     top: 100px;
     opacity: 0;
-
-    transition: all 1s ease;
-    animation: change-2 1s linear 1 forwards;
-    -webkit-animation: change-2 1s linear 1 forwards;
 }
 .swiper-slide-2 .content .text p {
     position: relative;
@@ -182,6 +178,16 @@ video {
     text-align: center;
     margin-top: 20px;
 }
+/*.animte-2-2 {*/
+    /*transition: all 1.5s ease;*/
+    /*animation: change-2 1.5s linear 1 forwards;*/
+    /*-webkit-animation: change-2 1.5s linear 1 forwards;*/
+/*}*/
+/*.animte-2-1 {*/
+    /*transition: all 1.2s ease;*/
+    /*animation: change-2 1.2s linear 1 forwards;*/
+    /*-webkit-animation: change-2 1.2s linear 1 forwards;*/
+/*}*/
 .animte-2 {
     transition: all 1s ease;
     animation: change-2 1s linear 1 forwards;
@@ -209,24 +215,13 @@ video {
 .swiper-slide-3 .content {
     width: 100%;
     height: 420px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto 0;
     text-align: center;
 }
 
 .swiper-slide-3 .content h3 {
     color: white;
-    position: absolute;
-    top: -10%;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
-    margin: auto;
-
+    margin-top: 100px;
+    font-size: 50px;
 }
 
 .swiper-slide-3 .content .little-title-1 {
@@ -288,138 +283,73 @@ video {
     margin: auto;
     opacity: 0;
 }
-
-.swiper-slide-3 .content .mindiamonds span {
+.swiper-slide-3 .mindiamonds span {
     position: absolute;
 }
 
-.swiper-slide-3 .content .mindiamonds span:nth-child(1) {
-    bottom: -17%;
-    left: 11%;
-}
-
-.swiper-slide-3 .content .mindiamonds span:nth-child(2) {
-    bottom: 53%;
-    left: 3%;
-}
-
-.swiper-slide-3 .content .mindiamonds span:nth-child(3) {
-    bottom: -14%;
-    right: 12%;
-}
-
-.swiper-slide-3 .content h5 {
-    padding-left: 25px;
-    color: white;
-    font-size: 18px;
-    padding-top: 25px;
-}
-
-.swiper-slide-3 .content dt {
-    color: white;
-    font-size: 11px;
-}
-
-/*第四屏*/
-.swiper-slide-4 {
-    background: url(../images/bg/3@2x.jpg) no-repeat;
-    position: relative;
-    background-size: cover;
-}
-
-.swiper-slide-4 .content {
-    width: 100%;
-    height: 70%;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    margin: auto;
-}
-
-.swiper-slide-4 .content .text {
-    width: 273px;
-    height: 356px;
-    background: url(../images/xz-1172@2x.png) no-repeat;
-    background-size: 273px 356px;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    margin: auto;
-}
-
-.swiper-slide-4 .content .text > h3 {
-    color: white;
-    text-align: center;
-    padding-top: 30%;
-}
-
-.swiper-slide-4 .content .text > h5 {
-    color: white;
-    text-align: center;
-    padding-bottom: 5%;
-}
-
-.swiper-slide-4 .content .text > p {
-    font-size: 11px;
-    color: white;
-    padding: 0% 15% 0;
-    line-height: 20px;
-}
-
-.swiper-slide-4 .content .content-left {
-    width: 17px;
-    height: 35px;
-    background: url(../images/left@2x.png) no-repeat;
-    background-size: 9px 17px;
-    position: absolute;
-    left: 6%;
-    top: 47%;
-}
-
-.swiper-slide-4 .content .content-right {
-    width: 17px;
-    height: 35px;
-    background: url(../images/right-1223@2x.png) no-repeat;
-    background-size: 9px 17px;
-    position: absolute;
-    right: 6%;
-    top: 47%;
-}
-
-.swiper-slide-4 .mindiamonds span {
-    position: absolute;
-}
-
-.swiper-slide-4 .mindiamonds span:nth-child(1) {
+.swiper-slide-3 .mindiamonds span:nth-child(1) {
     bottom: 10%;
     left: 9%;
 }
 
-.swiper-slide-4 .mindiamonds span:nth-child(2) {
-    bottom: 67%;
+.swiper-slide-3 .mindiamonds span:nth-child(2) {
+    bottom: 73%;
     left: 3%;
 }
 
-.swiper-slide-4 .mindiamonds span:nth-child(3) {
-    bottom: 19%;
+.swiper-slide-3 .mindiamonds span:nth-child(3) {
+    bottom: 13%;
     right: 8%;
 }
-
-.swiper-slide-4 .mindiamonds span:nth-child(4) {
-    width: 99px;
-    height: 99px;
-    background: url(../images/z-28@2x.png) no-repeat;
-    background-size: 99px 99px;
-    position: absolute;
-    bottom: 0%;
-    left: 39%;
+.swiper-slide-3 .content h5 {
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
 }
 
-/*第五屏*/
+.swiper-slide-3 .content dt {
+    color: white;
+    font-size: 22px;
+}
+
+/*第三屏的动画*/
+.swiper-slide-3 .content .little-3-1 {
+    left: -50%;
+    right: 0%;
+    top: -40%;
+    bottom: 0%;
+    opacity: 1;
+    transition: all 1s ease-in-out 0s;
+}
+
+.swiper-slide-3 .content .little-3-2 {
+    left: 50%;
+    right: 0%;
+    top: -40%;
+    bottom: 0%;
+    opacity: 1;
+    transition: all 1s ease-in-out 0s;
+}
+
+.swiper-slide-3 .content .little-3-3 {
+    left: -50%;
+    right: 0%;
+    top: 40%;
+    bottom: 0%;
+    opacity: 1;
+    transition: all 1s ease-in-out 0s;
+}
+
+.swiper-slide-3 .content .little-3-4 {
+    left: 50%;
+    right: 0%;
+    top: 40%;
+    bottom: 0%;
+    opacity: 1;
+    transition: all 1s ease-in-out 0s;
+}
+
+/*第四屏*/
 .swiper-slide-5 {
     background: url(../images/bg/4@2x.jpg) no-repeat;
     background-size: cover;
@@ -436,116 +366,107 @@ video {
 }
 
 .swiper-slide-5 .content-w {
-    width: 150%;
-    height: 68%;
+    width: 1000px;
+    height: 1000px;
     border: 1px solid red;
     border-radius: 50%;
-    left: -23%;
     position: absolute;
+    left: -16%;
 }
 
 .swiper-slide-5 .content-m {
-    width: 70%;
-    height: 70%;
+    width: 747px;
+    height: 747px;
     border: 1px solid red;
     border-radius: 50%;
-    left: -2%;
     position: absolute;
+    left: -1%;
 }
 
 .swiper-slide-5 .content-l {
-    width: 50%;
-    height: 50%;
+    width: 424px;
+    height: 424px;
     border: 1px solid red;
     border-radius: 50%;
     position: absolute;
+    left: -2%;
 }
 
 .swiper-slide-5 .content-w > img:nth-child(1) {
-    width: 59px;
-    height: 64px;
     position: absolute;
     left: 27%;
     top: -5%;
+    animation: change 10s infinite linear;
 }
 
 .swiper-slide-5 .content-w > img:nth-child(2) {
-    width: 59px;
-    height: 64px;
     position: absolute;
     bottom: -2%;
     right: 28%;
 }
 
 .swiper-slide-5 .content-m > img:nth-child(1) {
-    width: 59px;
-    height: 64px;
     position: absolute;
     right: 8%;
     top: 5%;
 }
 
 .swiper-slide-5 .content-m > img:nth-child(2) {
-    width: 59px;
-    height: 64px;
     position: absolute;
     left: 8%;
     top: 5%;
 }
 
 .swiper-slide-5 .content-m > img:nth-child(3) {
-    width: 59px;
-    height: 64px;
     position: absolute;
     bottom: -8%;
     left: 26%;
 }
 
 .swiper-slide-5 .content-l > img:nth-child(1) {
-    width: 83px;
-    height: 63px;
     position: absolute;
     top: -19%;
     left: 28%;
 }
 
 .swiper-slide-5 .content-l > img:nth-child(2) {
-    width: 59px;
-    height: 64px;
     position: absolute;
     bottom: -9%;
     left: 69%;
 }
 
 .swiper-slide-5 .content-l > img:nth-child(3) {
-    width: 59px;
-    height: 64px;
     position: absolute;
     bottom: -2%;
     right: 69%;
 }
 
-.swiper-slide-5 .content-l > h3 {
-    width: 100%;
-    height: 20px;
+.swiper-slide-5 .content-l > img:nth-child(4)  {
     text-align: center;
-    margin-top: 30%;
-    color: white;
+    position: absolute;
+    top: 11%;
+    left: 14%;
 }
 
-/*第六屏*/
+/*第四屏动画*/
+@keyframes change {
+    to {
+        transform: rotate(360deg);
+    }
+}
+/*第五屏*/
 .swiper-slide-6 {
     background: url(../images/bg/5@2x.jpg) no-repeat;
     background-size: cover;
 }
 
-/*第七屏*/
+/*第六屏*/
 .swiper-slide-7 {
     background: url(../images/bg/6@2x.jpg) no-repeat;
     background-size: cover;
 }
 
-/*第八屏*/
+/*第七屏*/
 .swiper-slide-8 {
     background: url(../images/bg/7@2x.jpg) no-repeat;
     background-size: cover;
@@ -679,39 +600,3 @@ video {
 /*left: 465px;*/
 /*}*/
 
-/*第三屏的动画*/
-.swiper-slide-3 .content .little-3-1 {
-    left: -50%;
-    right: 0%;
-    top: -65%;
-    bottom: 0%;
-    opacity: 1;
-    transition: all 1s ease-in-out 0s;
-}
-
-.swiper-slide-3 .content .little-3-2 {
-    left: 50%;
-    right: 0%;
-    top: -65%;
-    bottom: 0%;
-    opacity: 1;
-    transition: all 1s ease-in-out 0s;
-}
-
-.swiper-slide-3 .content .little-3-3 {
-    left: -50%;
-    right: 0%;
-    top: 56%;
-    bottom: 0%;
-    opacity: 1;
-    transition: all 1s ease-in-out 0s;
-}
-
-.swiper-slide-3 .content .little-3-4 {
-    left: 50%;
-    right: 0%;
-    top: 56%;
-    bottom: 0%;
-    opacity: 1;
-    transition: all 1s ease-in-out 0s;
-}
