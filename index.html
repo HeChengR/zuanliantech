@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/swiper-3.4.0.min.css"/>
     <link rel="stylesheet" href="css/globle.css"/>
     <link rel="stylesheet" href="css/index.css"/>
-    <link rel="stylesheet" href="css/iconfont.css"/>
     <!--导入外部插件-->
     <script src='js/zepto.min.js'></script>
     <script src='js/swiper-3.4.0.jquery.min.js'></script>
     <script src='js/nav.js'></script>
     <script src='js/diamonds.js'></script>
+    <script src='js/index.js'></script>
 </head>
 <body>
 
@@ -24,7 +24,7 @@
         <div class="main-nav">
             <div class="nav-zhezhao"></div>
             <div class="nav-button">
-                <i class="iconfont icon-caidan01"></i>
+                <img src="./images/cd@2x.png" alt=""/>
             </div>
             <div class="nav-list">
                 <ul>
@@ -81,7 +81,7 @@
                         <p>具有全球市场公允价格，并可随时交易。</p>
                     </div>
                     <div class="mindiamonds">
-                        <span class="animate"><img src="images/2@2x.png" alt=""></span>
+                        <span class="animate"><img src="images/52@2x.png" alt=""></span>
                         <span class="animate"><img src="images/22@2x.png" alt=""></span>
                     </div>
                 </div>
@@ -102,14 +102,14 @@
                     <div class="little-title-2">
                         <h5>标准化</h5>
                         <dl>
-                            <dt>极优质量&nbsp;便于交易</dt>
+                            <dt id='hc01'>极优质量&nbsp;便于交易</dt>
 
                         </dl>
                     </div>
                     <div class="little-title-3">
                         <h5>便携性</h5>
                         <dl>
-                            <dt>随时提取&nbsp;随身携带</dt>
+                            <dt id='hc02'>随时提取&nbsp;随身携带</dt>
 
                         </dl>
                     </div>
@@ -137,7 +137,7 @@
             </div>
             <!--第四屏-->
             <div class="swiper-slide swiper-slide-5">
-                <div class="content content-w">
+                <div class="content content-w" id='w'>
 
                     <img src="./images/w1@2x.png" alt=""/>
                     <img src="./images/w2@2x.png" alt=""/>
@@ -152,20 +152,61 @@
                             <img src="./images/l1@2x.png" alt=""/>
                             <img src="./images/l2@2x.png" alt=""/>
                             <img src="./images/l3@2x.png" alt=""/>
-
                             <img src="./images/z-31@2x.png" alt=""/>
                         </div>
                     </div>
                 </div>
+
+                <div class="mindiamonds">
+                    <span class="animate"><img src="images/2@2x.png" alt=""></span>
+                    <span class="animate"><img src="images/3@2x.png" alt=""></span>
+                    <span class="animate"><img src="images/8-1158@2x.png" alt=""></span>
+                </div>
+
             </div>
             <!--第五屏-->
             <div class="swiper-slide swiper-slide-6">
+                   <div class='content'>
+                       <h3>我们的服务对象</h3>
+                       <div class='content-img01'>
+                           <img src="./images/5left@2x.png" alt=""/>
+                           <p class="title">钻石投资者</p>
+                           <p class='des'>行业采购商<i>◆</i>珠宝加工商</p>
+                       </div>
+                        <div class='zuanshi-to-right'>
+                            <div class='content-img02'>
+                                <img src="./images/5left2@2x.png" alt=""/>
+                                <p class="title">钻石持有者</p>
+                                <p class='des'>个人投资者<i>◆</i>金融交易商</p>
+                            </div>
+                        </div>
 
+                       <div class="mindiamonds">
+                           <span class="animate"><img src="images/2@2x.png" alt=""></span>
+                           <span class="animate"><img src="images/3@2x.png" alt=""></span>
+                           <span class="animate"><img src="images/5@2x.png" alt=""></span>
+                           <span class="animate"><img src="images/52@2x.png" alt=""></span>
+                       </div>
+
+                   </div>
             </div>
+
             <!--第六屏-->
             <div class="swiper-slide swiper-slide-7">
+                 <div class='content'>
+                     <h3>创新的跨平台服务</h3>
+                     <!--轮播图-->
+                     <iframe id='iframe-two' scrolling="no" frameborder="0" src="zuanlian06.html">
 
+                     </iframe>
+                     <div class="mindiamonds">
+                         <span class="animate"><img src="images/2@2x.png" alt=""></span>
+                         <span class="animate"><img src="images/3@2x.png" alt=""></span>
+                         <span class="animate"><img src="images/5@2x.png" alt=""></span>
+                     </div>
+                 </div>
             </div>
+
             <!--第七屏-->
             <div class="swiper-slide swiper-slide-8 swiper-pagination-bullet-active">
                 <div class='content'>
@@ -177,17 +218,20 @@
                     <div class="text">
                         <img src="./images/8@2x.png" alt=""/>
                         <img src="./images/z-29@2x.png" alt=""/>
-                        <ul>
-                            <li class="animate"><span class="list-pic"></span>全球首家实物结算，电子化钻石交易平台。</li>
-                            <li class="animate"><span class="list-pic"></span>真正的价格披露机制，使钻石不仅作为商品交易，也可作金融资产进行投资。</li>
-                            <li class="animate"><span class="list-pic"></span>公平，透明，有序的市场环境，为投资人/贸易商根据交易数据，以市场价格购入成品钻提供了便利。
-                            </li>
-                        </ul>
+                        <div class="text-content">
+                            <img src="./images/z30@2x.png" alt=""/>
+                            <p>全球首家实物结算，电子化钻石交易平台。</p>
+                            <p>真正的价格披露机制，使钻石不仅作为商品交易，也可作金融资产进行投资。</p>
+                            <p>公平，透明，有序的市场环境，为投资人/贸易商根据交易数据，以市场价格购入成品钻提供了便利。</p>
+                        </div>
                     </div>
                     <!--<div class="mindiamonds">-->
                     <!--<span class="animate animate-up animate-down"><img src="./images/3-16@2x.png" alt=""></span>-->
                     <!--<span class="animate animate-up animate-down"><img src="./images/8-1158@2x.png" alt=""></span>-->
                     <!--</div>-->
+                </div>
+                <div class='bottom'>
+                    钻联科技 Copyright  2016 Zuanlian, Inc. All Rights Reserved.
                 </div>
             </div>
         </div>
@@ -197,66 +241,6 @@
 
     </div>
 </div>
-<script>
-    var mySwiper = new Swiper('.swiper-container', {
-        direction: 'vertical',
-        // 如果需要分页器
-        pagination: '.swiper-pagination',
-        paginationBulletRender: function (swiper, index, className) {
-            return '';
-        },
-        onSlideChangeEnd: function (swiper) {
-//            alert(swiper.activeIndex) //切换结束时，告诉我现在是第几个slide
-
-            switch (swiper.activeIndex) {
-                case 0:
-                    $('.swiper-slide-1 .content .sy-logo').addClass('animte-1');
-                    $('.swiper-slide-1 .content > span').addClass('animte-1');
-                    $('.swiper-slide-1 .content > p').addClass('animte-1');
-                    break;
-                case 1:
-                    $('.swiper-slide-2 .content > h3').addClass('animte-2');
-                        $('.swiper-slide-2 .content .text p').addClass('animte-2');
-                    break;
-                case 2:
-                    $('.swiper-slide-3 .content .little-title-1').addClass('little-3-1');
-                    $('.swiper-slide-3 .content .little-title-2').addClass('little-3-2');
-                    $('.swiper-slide-3 .content .little-title-3').addClass('little-3-3');
-                    $('.swiper-slide-3 .content .little-title-4').addClass('little-3-4');
-                    break;
-                case 3:
-
-                    break;
-                case 4:
-
-                    break;
-
-                default :
-
-                    break;
-            }
-
-            if (swiper.activeIndex != 2) {
-                $('.swiper-slide-3 .content .little-title-1').removeClass('little-3-1');
-                $('.swiper-slide-3 .content .little-title-2').removeClass('little-3-2');
-                $('.swiper-slide-3 .content .little-title-3').removeClass('little-3-3');
-                $('.swiper-slide-3 .content .little-title-4').removeClass('little-3-4');
-            }
-            if (swiper.activeIndex != 0) {
-                $('.swiper-slide-1 .content .sy-logo').removeClass('animte-1');
-                $('.swiper-slide-1 .content > span').removeClass('animte-1');
-                $('.swiper-slide-1 .content > p').removeClass('animte-1');
-            }
-
-            if (swiper.activeIndex != 1) {
-                $('.swiper-slide-2 .content > h3').removeClass('animte-2');
-                $('.swiper-slide-2 .content .text p').removeClass('animte-2');
-            }
-        }
-
-    })
-
-</script>
 
 </body>
 </html>
