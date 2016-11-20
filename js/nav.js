@@ -1,5 +1,5 @@
 $(function(){
-				var navFlag = true;
+	var navFlag = true;
 	$(".nav-button").on('click', function() {
 				
 
@@ -65,7 +65,6 @@ $(function(){
 					// 第二次点击关闭遮罩层
 					$(".nav-zhezhao").fadeOut(1000);
 
-
 	                //第二次点击关闭按钮变菜单按钮
 	                $(".nav-button i").fadeOut(500, function() {
 	                	$(".nav-button i").toggleClass("baise");
@@ -73,8 +72,6 @@ $(function(){
 	                	$(".nav-button i").addClass('icon-caidan01');
 	                	$(".nav-button i").fadeIn(500);
 	                });
-
-
 
 	                navFlag = true;
 	                return navFlag;
