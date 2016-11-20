@@ -1,6 +1,5 @@
-/*CSS初始化*/
 html {
-    font-size: 75px;
+    font-size: 10px;
     box-sizing: border-box;
     max-width: 960px;
     min-width: 320px;
@@ -65,4 +64,30 @@ button {
     border-style: none;
     background-color: #fff;
     text-align: center;
+}
+
+
+.invest_des>p {
+    font-size: 2.2rem;
+    color: #8F9BAB;
+    line-height: 3.3rem;
+}
+
+.invest_content .content>h3 {
+    font-size: 3.6rem;
+    color: #1876F4;
+    line-height: 5.4rem;
+    text-align: center;
+    margin: 0 12rem;
+}
+
+.invest_content .content01 .invest>h3 {
+    font-size: 2.8rem;
+    color: #1876F4;
+}
+
+.invest_content .invest>p,li {
+    font-size: 2.2rem;
+    color: #8F9BAB;
+    line-height: 3.3rem;
 }

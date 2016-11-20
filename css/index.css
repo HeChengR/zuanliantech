@@ -1,11 +1,6 @@
 html, body {
     height: 100%;
 }
-
-body {
-    font-family: "microsoft yahei";
-}
-
 /* 钻石 */
 .swiper-slide-2 .diamonds-1 {
     width: 400px;
@@ -30,10 +25,7 @@ body {
 }
 
 .zl_layout {
-    max-width: 960px;
-    min-width: 320px;
     height: 100%;
-    margin: 0 auto;
 }
 
 /* 右边导航 */
@@ -275,20 +267,13 @@ video {
     bottom: 23%;
     left: 9%;
 }
-/*.animte-2-2 {*/
-    /*transition: all 1.5s ease;*/
-    /*animation: change-2 1.5s linear 1 forwards;*/
-    /*-webkit-animation: change-2 1.5s linear 1 forwards;*/
-/*}*/
-/*.animte-2-1 {*/
-    /*transition: all 1.2s ease;*/
-    /*animation: change-2 1.2s linear 1 forwards;*/
-    /*-webkit-animation: change-2 1.2s linear 1 forwards;*/
-/*}*/
 .animte-2 {
     transition: all 1s ease;
+    -webkit-transition: all 1s ease;
     animation: change-2 1s linear 1 forwards;
     -webkit-animation: change-2 1s linear 1 forwards;
+    /* Other transform properties here */
+
 }
 /*第二屏的动画*/
 @keyframes change-2 {
@@ -680,16 +665,7 @@ video {
     background-size: cover;
     position: relative;
 }
-#iframe-two {
-    width: 100%;
-    height: 900px;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
-    margin: auto;
-}
+
 .swiper-slide-7 .content {
     width: 100%;
     height: 100%;
@@ -715,6 +691,26 @@ video {
     left: 4%;
 }
 
+/*轮播图*/
+#swiper-container-2 .swiper-slide .slide {
+    width: 500px;
+    height: 700px;
+    background: #1774B5;
+    position: absolute;
+    top: 0%;
+    left: -49%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+}
+
+#swiper-container-2 .swiper-button-prev {
+    margin-left: 25px;
+}
+
+#swiper-container-2 .swiper-button-next {
+    margin-right: 25px;
+}
 
 
 /*第七屏*/

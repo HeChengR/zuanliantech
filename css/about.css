@@ -1,0 +1,134 @@
+/*头部*/
+.about_layout {
+    width: 100%;
+}
+.about_layout .about_top {
+
+}
+
+.about_layout .about_top>p {
+    padding: 0 0.4rem;
+    color: #5F738D;
+    font-size: 0.3rem;
+    line-height: 33px;
+}
+/*创始人*/
+.about_content .main {
+    margin-top: 60px;
+    color: #1876F4;
+    font-size: 0.48rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
+.about_content {
+    width: 100%;
+    position: relative;
+}
+.about_content .content_imgs {
+    margin-top: 100px;
+    width: 425px;
+    height: 425px;
+    background: url(../images/about/boss-142@2x.png) no-repeat;
+    position: absolute;
+    right: 0;
+}
+
+.about_content .content_imgs>img {
+    position: absolute;
+    right: 1.3rem;
+    top: -63px;
+}
+.about_content .main_name {
+    margin-top: 665px;
+    font-size: 0.48rem;
+    line-height: 0.48rem;
+    color: #2C3E55;
+    text-align: center;
+}
+.about_content>h4 {
+    margin-top: 20px;
+    font-size: 0.32rem;
+    line-height: 0.48rem;
+    color: #2C3E55;
+    text-align: center;
+}
+
+.about_content>p {
+    padding: 0 0.4rem;
+    color: #8F9BAB;
+    font-size: 0.3rem;
+    line-height: 33px;
+    margin-top: 30px;
+}
+/*管理团队*/
+.about_bottom {
+    width: 100%;
+}
+.bottom_pub {
+    width: 100%;
+    height: 300px;
+}
+.about_bottom>h3 {
+    margin-top: 60px;
+    color: #1876F4;
+    font-size: 0.48rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
+
+.about_bottom .imgs_pub {
+    width: 311px;
+    height: 313px;
+    background: url(../images/about/team@2x.png) no-repeat;
+}
+.about_bottom .text {
+    width: 44%;
+}
+
+.bottom_yj {
+    width: 100%;
+    margin-top: 60px;
+}
+.bottom_yj .yj_imgs {
+    float: left;
+}
+.bottom_yj .yj_imgs>img {
+    margin-left: 0.52rem;
+}
+
+.bottom_yj .text {
+    float: right;
+    margin-right: 0.4rem;
+}
+
+/*.bottom_kfs {*/
+    /*width: 100%;*/
+    /*margin-top: 60px;*/
+/*}*/
+/*.bottom_kfs .kfs_imgs {*/
+    /*width: 50%;*/
+    /*float: right;*/
+/*}*/
+/*.bottom_kfs .kfs_imgs>img {*/
+    /*float: right;*/
+/*}*/
+/*.bottom_kfs .text {*/
+    /*float: left;*/
+    /*margin-left: 0.4rem;*/
+/*}*/
+
+.about_bottom .text>h3 {
+    color: #2C3E55;
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+}
+.about_bottom .text>h4 {
+    color: #2C3E55;
+    font-size: 0.32rem;
+    line-height: 0.48rem;
+}
+.about_bottom .text>p {
+    color: #8F9BAB;
+    font-size: 0.3rem;
+    line-height: 0.44rem;
+}

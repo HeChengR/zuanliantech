@@ -1,5 +1,5 @@
 $(function(){
-    var mySwiper = new Swiper('.swiper-container', {
+    var mySwiper = new Swiper('#swiper-container-1', {
         direction: 'vertical',
         // 如果需要分页器
         pagination: '.swiper-pagination',
@@ -89,5 +89,26 @@ $(function(){
             }
         }
 
+    })
+    var mySwiper = new Swiper('#swiper-container-2', {
+        direction: 'horizontal',
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+        paginationBulletRender: function (swiper, index, className) {
+            return '';
+        },
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        effect: 'coverflow',
+        slidesPerView: 3,
+        centeredSlides: true,
+        coverflow: {
+            rotate: 0,
+            stretch: -180,
+            depth: 60,
+            modifier: 2,
+            slideShadows: true
+        }
     })
 })

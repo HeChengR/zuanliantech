@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0">
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--外部插件css-->
     <link rel="stylesheet" href="css/swiper-3.4.0.min.css"/>
@@ -15,6 +17,7 @@
     <script src='js/nav.js'></script>
     <script src='js/diamonds.js'></script>
     <script src='js/index.js'></script>
+
 </head>
 <body>
 
@@ -41,9 +44,8 @@
         </div>
     </nav>
 
-
     <!--分页内容-->
-    <div class="swiper-container">
+    <div class="swiper-container" id='swiper-container-1'>
         <div class="swiper-wrapper">
             <!--第一屏-->
             <div class="swiper-slide swiper-slide-1">
@@ -196,9 +198,38 @@
                  <div class='content'>
                      <h3>创新的跨平台服务</h3>
                      <!--轮播图-->
-                     <iframe id='iframe-two' scrolling="no" frameborder="0" src="zuanlian06.html">
+                     <div class="swiper-container" id='swiper-container-2'>
+                         <div class="swiper-wrapper">
+                             <div class="swiper-slide">
+                                 <div class='slide swiper-slide-1'>
+                                     1
+                                     <h3></h3>
 
-                     </iframe>
+                                     <div></div>
+                                     <p></p>
+                                 </div>
+                             </div>
+
+                             <div class="swiper-slide">
+                                 <div class='slide swiper-slide-2'>
+                                     2
+                                 </div>
+                             </div>
+
+                             <div class="swiper-slide">
+                                 <div class='slide swiper-slide-3'>
+                                     3
+                                 </div>
+                             </div>
+                         </div>
+
+                         <!-- 如果需要导航按钮 -->
+                         <div class="swiper-button-prev swiper-button-white">
+                         </div>
+                         <div class="swiper-button-next swiper-button-white"></div>
+                         <!--&lt;!&ndash; 如果需要分页器 &ndash;&gt;-->
+                         <!--<div class="swiper-pagination"></div>-->
+                     </div>
                      <div class="mindiamonds">
                          <span class="animate"><img src="images/2@2x.png" alt=""></span>
                          <span class="animate"><img src="images/3@2x.png" alt=""></span>
